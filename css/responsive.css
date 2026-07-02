@@ -106,4 +106,10 @@ nav a{
     margin:15px 0;
 }
 
+.hero{
+
+    background:url("../assets/images/hero-mobile.jpg") center center/cover no-repeat;
+
+}
+
 }

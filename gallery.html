@@ -1,132 +1,523 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
 
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Newbie Photography</title>
+<title>Galeri | Newbie Photography</title>
 
-<meta name="description" content="Photography portfolio showcasing landscape, street, automotive, nature, and night photography.">
+<meta name="description" content="Galeri fotografi Newbie Photography.">
 
-<meta name="keywords" content="Photography, Portfolio, Landscape, Street, Automotive, Nature">
+<meta name="keywords" content="Photography, Landscape, Street, Night, Automotive">
 
 <meta name="author" content="Newbie Photography">
 
-<link rel="icon" href="assets/logo/favicon.png">
+<link rel="icon" type="image/png" href="assets/logo/favicon.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
+
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/responsive.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="css/responsive.css">
 
 </head>
 
 <body>
 
+<!-- ==========================
+LOADER
+========================== -->
+
+<div id="loader">
+
+<div class="loader-circle"></div>
+
+<h2>Newbie Photography</h2>
+
+</div>
+
+<!-- ==========================
+HEADER
+========================== -->
+
 <header>
 
-    <div class="logo">Newbie Photography</div>
+<div class="logo">
 
-    <nav id="navbar">
+Newbie Photography
 
-        <a href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+</div>
 
-    </nav>
+<nav>
 
-    <div class="menu-btn" id="menuBtn">
-        ☰
-    </div>
+<a href="index.html">Beranda</a>
+
+<a href="gallery.html" class="active">Galeri</a>
+
+<a href="about.html">Tentang</a>
+
+<a href="contact.html">Kontak</a>
+
+</nav>
+
+<div class="menu-btn">
+
+☰
+
+</div>
 
 </header>
 
-<section class="page-title">
+<!-- ==========================
+GALLERY
+========================== -->
 
-<h1>Gallery</h1>
+<section class="gallery-page reveal">
+
+<div class="container">
+
+<div class="section-title">
+
+<span>Portofolio</span>
+
+<h2>Galeri Fotografi</h2>
 
 <p>
-A collection of moments captured through my lens.
+
+Kumpulan karya terbaik yang saya abadikan dari berbagai tempat dan momen.
+
 </p>
 
-</section>
+</div>
 
-<section class="gallery-page">
+<!-- ==========================
+FILTER
+========================== -->
 
-<div class="gallery-grid-page">
+<div class="gallery-filter">
 
-<a href="assets/images/gallery1.jpg" class="glightbox">
-<img src="assets/images/gallery1.jpg">
+<button class="active">
+
+Semua
+
+</button>
+
+<button>
+
+Landscape
+
+</button>
+
+<button>
+
+Street
+
+</button>
+
+<button>
+
+Night
+
+</button>
+
+<button>
+
+Automotive
+
+</button>
+
+</div>
+
+<!-- ==========================
+PHOTO GRID
+========================== -->
+
+<div class="gallery-grid">
+
+<a
+href="assets/images/photo1.jpg"
+class="gallery-item glightbox"
+data-gallery="portfolio">
+
+<img
+loading="lazy"
+src="assets/images/photo1.jpg"
+alt="Landscape">
+
+<div class="gallery-overlay">
+
+<div class="badge">
+
+Landscape
+
+</div>
+
+<h3>
+
+Pasir Kuda
+
+</h3>
+
+<p>
+
+Cianjur
+
+</p>
+
+<span>🔍</span>
+
+</div>
+
 </a>
 
-<a href="assets/images/gallery2.jpg" class="glightbox">
-<img src="assets/images/gallery2.jpg">
+<a
+href="assets/images/photo2.jpg"
+class="gallery-item glightbox"
+data-gallery="portfolio">
+
+<img
+loading="lazy"
+src="assets/images/photo2.jpg"
+alt="Street">
+
+<div class="gallery-overlay">
+
+<div class="badge">
+
+Street
+
+</div>
+
+<h3>
+
+Alfamart
+
+</h3>
+
+<p>
+
+Bandung
+
+</p>
+
+<span>🔍</span>
+
+</div>
+
 </a>
 
-<a href="assets/images/gallery3.jpg" class="glightbox">
-<img src="assets/images/gallery3.jpg">
+<a
+href="assets/images/photo3.jpg"
+class="gallery-item glightbox"
+data-gallery="portfolio">
+
+<img
+loading="lazy"
+src="assets/images/photo3.jpg"
+alt="Night">
+
+<div class="gallery-overlay">
+
+<div class="badge">
+
+Landscape
+
+</div>
+
+<h3>
+
+Sunset
+
+</h3>
+
+<p>
+
+Bandung
+
+</p>
+
+<span>🔍</span>
+
+</div>
+
 </a>
 
-<a href="assets/images/gallery4.jpg" class="glightbox">
-<img src="assets/images/gallery4.jpg">
+<a
+href="assets/images/photo4.jpg"
+class="gallery-item glightbox"
+data-gallery="portfolio">
+
+<img
+loading="lazy"
+src="assets/images/photo4.jpg"
+alt="Automotive">
+
+<div class="gallery-overlay">
+
+<div class="badge">
+
+Landscape
+
+</div>
+
+<h3>
+
+Curug Citambur
+
+</h3>
+
+<p>
+
+Cianjur
+
+</p>
+
+<span>🔍</span>
+
+</div>
+
 </a>
 
-<a href="assets/images/gallery5.jpg" class="glightbox">
-<img src="assets/images/gallery5.jpg">
+<a
+href="assets/images/photo5.jpg"
+class="gallery-item glightbox"
+data-gallery="portfolio">
+
+<img
+loading="lazy"
+src="assets/images/photo5.jpg"
+alt="Landscape">
+
+<div class="gallery-overlay">
+
+<div class="badge">
+
+Landscape
+
+</div>
+
+<h3>
+
+Girl With Camera
+
+</h3>
+
+<p>
+
+Cianjur
+
+</p>
+
+<span>🔍</span>
+
+</div>
+
 </a>
 
-<a href="assets/images/gallery6.jpg" class="glightbox">
-<img src="assets/images/gallery6.jpg">
+<a
+href="assets/images/photo6.jpg"
+class="gallery-item glightbox"
+data-gallery="portfolio">
+
+<img
+loading="lazy"
+src="assets/images/photo6.jpg"
+alt="Night">
+
+<div class="gallery-overlay">
+
+<div class="badge">
+
+Landscape
+
+</div>
+
+<h3>
+
+Girl With Camera
+
+</h3>
+
+<p>
+
+Cianjur
+
+</p>
+
+<span>🔍</span>
+
+</div>
+
 </a>
 
-<a href="assets/images/gallery7.jpg" class="glightbox">
-<img src="assets/images/gallery7.jpg">
+<a
+href="assets/images/photo7.jpg"
+class="gallery-item glightbox"
+data-gallery="portfolio">
+
+<img
+loading="lazy"
+src="assets/images/photo7.jpg"
+alt="Street">
+
+<div class="gallery-overlay">
+
+<div class="badge">
+
+Landscape
+
+</div>
+
+<h3>
+
+Sunsrise
+
+</h3>
+
+<p>
+
+Ciwidey
+
+</p>
+
+<span>🔍</span>
+
+</div>
+
 </a>
 
-<a href="assets/images/gallery8.jpg" class="glightbox">
-<img src="assets/images/gallery8.jpg">
+<a
+href="assets/images/photo8.jpg"
+class="gallery-item glightbox"
+data-gallery="portfolio">
+
+<img
+loading="lazy"
+src="assets/images/photo8.jpg"
+alt="Landscape">
+
+<div class="gallery-overlay">
+
+<div class="badge">
+
+Landscape
+
+</div>
+
+<h3>
+
+Blue Sky
+
+</h3>
+
+<p>
+
+Bandung
+
+</p>
+
+<span>🔍</span>
+
+</div>
+
 </a>
+
+</div>
 
 </div>
 
 </section>
 
-<script src="js/script.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
-
-<script>
-GLightbox({
-selector:'.glightbox',
-loop:true,
-touchNavigation:true
-});
-</script>
+<!-- ==========================
+FOOTER
+========================== -->
 
 <footer>
 
-<h3>Newbie Photography</h3>
+    <div class="container footer-container">
 
-<p>Capturing stories through light and perspective.</p>
+        <div class="footer-about">
 
-<div class="footer-menu">
+            <h2>Newbie Photography</h2>
 
-<a href="index.html">Home</a>
-<a href="gallery.html">Gallery</a>
-<a href="about.html">About</a>
-<a href="contact.html">Contact</a>
+            <p>
 
-</div>
+                Mengabadikan cerita melalui setiap bidikan.
+                Landscape, Street, Night, dan Automotive Photography.
 
-<p>© 2026 Newbie Photography</p>
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h3>Navigasi</h3>
+
+            <a href="index.html">Beranda</a>
+
+            <a href="gallery.html">Galeri</a>
+
+            <a href="about.html">Tentang</a>
+
+            <a href="contact.html">Kontak</a>
+
+        </div>
+
+        <div class="footer-social">
+
+            <h3>Media Sosial</h3>
+
+            <a href="#">Instagram</a>
+
+            <a href="#">Facebook</a>
+
+            <a href="#">TikTok</a>
+
+            <a href="#">YouTube</a>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        © <span id="year"></span> Newbie Photography. All Rights Reserved.
+
+    </div>
 
 </footer>
 
+<!-- ==========================
+BACK TO TOP
+========================== -->
+
+<button id="topBtn">
+
+↑
+
+</button>
+
+<!-- ==========================
+GLIGHTBOX
+========================== -->
+
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+<!-- ==========================
+MAIN SCRIPT
+========================== -->
+
+<script src="js/script.js"></script>
+
 </body>
+
 </html>

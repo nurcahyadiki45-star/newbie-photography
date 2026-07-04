@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
 
@@ -9,232 +9,474 @@
 
 <title>Newbie Photography</title>
 
-<meta name="description" content="Photography portfolio showcasing landscape, street, automotive, nature, and night photography.">
+<meta name="description" content="Portofolio fotografi Newbie Photography.">
 
-<meta name="keywords" content="Photography, Portfolio, Landscape, Street, Automotive, Nature">
+<meta name="keywords" content="Photography, Landscape, Street, Night, Automotive">
 
 <meta name="author" content="Newbie Photography">
 
-<link rel="icon" href="assets/logo/favicon.png">
+<link rel="icon" type="image/png" href="assets/logo/favicon.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
+
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
 
 <link rel="stylesheet" href="css/style.css">
 
 <link rel="stylesheet" href="css/responsive.css">
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
-
 </head>
 
 <body>
 
+<!-- ==========================
+LOADER
+========================== -->
+
+<div id="loader">
+
+    <div class="loader-circle"></div>
+
+    <h2>Newbie Photography</h2>
+
+</div>
+
+<!-- ==========================
+HEADER
+========================== -->
+
 <header>
 
-    <div class="logo">Newbie Photography</div>
+<div class="logo">
 
-    <nav id="navbar">
+Newbie Photography
 
-        <a href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+</div>
 
-    </nav>
+<nav>
 
-    <div class="menu-btn" id="menuBtn">
-        ☰
-    </div>
+<a href="index.html" class="active">Beranda</a>
 
-</header> 
+<a href="gallery.html">Galeri</a>
+
+<a href="about.html">Tentang</a>
+
+<a href="contact.html">Kontak</a>
+
+</nav>
+
+<div class="menu-btn">
+
+☰
+
+</div>
+
+</header>
+
+<!-- ==========================
+HERO
+========================== -->
 
 <section class="hero">
 
-<div class="overlay"></div>
+<div class="container">
 
 <div class="hero-content">
 
-<p class="subtitle">
-Photography Portfolio
-</p>
+<span class="hero-subtitle">
+
+PORTOFOLIO FOTOGRAFI
+
+</span>
 
 <h1>
 
-See The World<br>
-
-Through My Lens
+Mengabadikan Cerita
+Melalui Setiap Bidikan
 
 </h1>
 
-<p class="description">
+<p>
 
-Capturing landscapes, city lights, automotive,
-street moments, and everything in between.
+Landscape, Street, Night, Automotive, dan berbagai momen terbaik yang diabadikan melalui sudut pandang sederhana namun penuh makna.
 
 </p>
 
-<a href="gallery.html" class="btn">
+<div class="hero-buttons">
 
-Explore Gallery
+<a href="gallery.html" class="btn btn-primary">
+
+Lihat Galeri
+
+</a>
+
+<a href="about.html" class="btn btn-outline">
+
+Tentang Saya
 
 </a>
 
 </div>
 
-</section>
-
-<!-- Categories -->
-
-<section class="categories">
-
-    <div class="section-title">
-        <span>What I Capture</span>
-        <h2>Photography Categories</h2>
-    </div>
-
-    <div class="category-grid">
-
-        <div class="category-card">
-            <h3>Landscape</h3>
-            <p>Mountains, forests, sunsets, and beautiful scenery.</p>
-        </div>
-
-        <div class="category-card">
-            <h3>Street</h3>
-            <p>Everyday stories captured naturally.</p>
-        </div>
-
-        <div class="category-card">
-            <h3>Automotive</h3>
-            <p>Cars, motorcycles, and motorsport photography.</p>
-        </div>
-
-    </div>
-
-</section>
-
-<section class="featured-gallery">
-
-    <div class="section-title">
-        <span>Portfolio</span>
-        <h2>Featured Works</h2>
-    </div>
-
-    <div class="gallery-grid">
-
-    <a href="assets/images/gallery1.jpg" class="glightbox">
-        <img src="assets/images/gallery1.jpg" alt="Landscape">
-    </a>
-
-    <a href="assets/images/gallery2.jpg" class="glightbox">
-        <img src="assets/images/gallery2.jpg" alt="Street">
-    </a>
-
-    <a href="assets/images/gallery3.jpg" class="glightbox">
-        <img src="assets/images/gallery3.jpg" alt="Automotive">
-    </a>
-
-    <a href="assets/images/gallery4.jpg" class="glightbox">
-        <img src="assets/images/gallery4.jpg" alt="Nature">
-    </a>
+</div>
 
 </div>
 
 </section>
 
-<section class="stats">
+<!-- ==========================
+FEATURED PHOTOS
+========================== -->
 
-    <div class="stat">
-        <h2>100+</h2>
-        <p>Photos</p>
-    </div>
+<section class="featured reveal">
 
-    <div class="stat">
-        <h2>20+</h2>
-        <p>Projects</p>
-    </div>
+    <div class="container">
 
-    <div class="stat">
-        <h2>5+</h2>
-        <p>Years Learning</p>
+        <div class="section-title">
+
+            <span>Galeri Pilihan</span>
+
+            <h2>Hasil Karya Terbaik</h2>
+
+            <p>
+                Beberapa foto pilihan yang mewakili gaya fotografi Newbie Photography.
+            </p>
+
+        </div>
+
+        <div class="featured-grid">
+
+            <a href="gallery.html" class="featured-card">
+
+                <img src="assets/images/photo1.jpg" alt="Landscape">
+
+                <div class="featured-overlay">
+
+                    <h3>Landscape</h3>
+
+                    <p>Keindahan alam dari berbagai sudut Indonesia.</p>
+
+                </div>
+
+            </a>
+
+            <a href="gallery.html" class="featured-card">
+
+                <img src="assets/images/photo2.jpg" alt="Street">
+
+                <div class="featured-overlay">
+
+                    <h3>Street</h3>
+
+                    <p>Mengabadikan kehidupan kota yang penuh cerita.</p>
+
+                </div>
+
+            </a>
+
+            <a href="gallery.html" class="featured-card">
+
+                <img src="assets/images/photo3.jpg" alt="Night">
+
+                <div class="featured-overlay">
+
+                    <h3>Night</h3>
+
+                    <p>Cahaya malam dengan suasana yang tenang.</p>
+
+                </div>
+
+            </a>
+
+            <a href="gallery.html" class="featured-card">
+
+                <img src="assets/images/photo4.jpg" alt="Automotive">
+
+                <div class="featured-overlay">
+
+                    <h3>Automotive</h3>
+
+                    <p>Kecepatan dan detail dalam satu bingkai.</p>
+
+                </div>
+
+            </a>
+
+        </div>
+
     </div>
 
 </section>
 
-<section class="about-preview">
+<!-- ==========================
+CATEGORIES
+========================== -->
 
-    <div class="about-content">
+<section class="categories reveal">
 
-        <span>About Me</span>
+    <div class="container">
 
-        <h2>Photography is more than taking pictures.</h2>
+        <div class="section-title">
 
-        <p>
-            I enjoy capturing moments that tell stories, from peaceful landscapes
-            and city nights to automotive photography and everyday life.
-            Every photo reflects a unique perspective and genuine emotion.
-        </p>
+            <span>Kategori</span>
 
-        <a href="about.html" class="btn">
-            Learn More
-        </a>
+            <h2>Jelajahi Galeri</h2>
+
+        </div>
+
+        <div class="category-grid">
+
+            <div class="category-card">
+
+                <div class="category-icon">🏔️</div>
+
+                <h3>Landscape</h3>
+
+                <p>Pemandangan alam, gunung, pantai, dan matahari terbit.</p>
+
+            </div>
+
+            <div class="category-card">
+
+                <div class="category-icon">🏙️</div>
+
+                <h3>Street</h3>
+
+                <p>Kehidupan kota dengan momen yang spontan.</p>
+
+            </div>
+
+            <div class="category-card">
+
+                <div class="category-icon">🌙</div>
+
+                <h3>Night</h3>
+
+                <p>Fotografi malam, bintang, dan langit.</p>
+
+            </div>
+
+            <div class="category-card">
+
+                <div class="category-icon">🏎️</div>
+
+                <h3>Automotive</h3>
+
+                <p>Mobil dan motor dengan sudut sinematik.</p>
+
+            </div>
+
+        </div>
 
     </div>
 
 </section>
 
-<section class="cta">
+<!-- ==========================
+STATISTICS
+========================== -->
 
-    <h2>Let's Create Something Beautiful</h2>
+<section class="stats reveal">
 
-    <p>
-        Interested in working together or just want to say hello?
-    </p>
+    <div class="container">
 
-    <a href="contact.html" class="btn">
-        Contact Me
-    </a>
+        <div class="stats-grid">
+
+            <div class="stat-card">
+
+                <h2>250+</h2>
+
+                <p>Foto Dipublikasikan</p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h2>20+</h2>
+
+                <p>Lokasi Dikunjungi</p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h2>5+</h2>
+
+                <p>Tahun Belajar Fotografi</p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <h2>100%</h2>
+
+                <p>Semangat Berkarya</p>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
 
-<script src="js/script.js"></script>
+<!-- ==========================
+ABOUT PREVIEW
+========================== -->
 
-<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<section class="about-preview reveal">
 
-<script>
-const lightbox = GLightbox({
-    selector: ".glightbox",
-    touchNavigation: true,
-    loop: true,
-    zoomable: true
-});
-</script>
+    <div class="container about-container">
+
+        <div class="about-image">
+
+            <img src="assets/images/about.jpg" alt="About">
+
+        </div>
+
+        <div class="about-content">
+
+            <span>Tentang Saya</span>
+
+            <h2>Fotografi Adalah Cara Saya Menceritakan Dunia.</h2>
+
+            <p>
+
+                Saya percaya setiap foto memiliki cerita. Dari pegunungan yang sunyi, jalanan yang ramai, hingga langit malam yang penuh bintang, semuanya memiliki momen yang layak dikenang.
+
+            </p>
+
+            <a href="about.html" class="btn btn-primary">
+
+                Selengkapnya
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================
+CTA
+========================== -->
+
+<section class="cta reveal">
+
+    <div class="container">
+
+        <div class="cta-content">
+
+            <h2>
+
+                Setiap Foto Memiliki Cerita
+
+            </h2>
+
+            <p>
+
+                Terima kasih telah mengunjungi Newbie Photography.
+                Semoga salah satu karya di sini dapat menginspirasi perjalanan fotografi Anda.
+
+            </p>
+
+            <a href="gallery.html" class="btn btn-primary">
+
+                Jelajahi Galeri
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================
+FOOTER
+========================== -->
 
 <footer>
 
-    <h3>Newbie Photography</h3>
+    <div class="container footer-container">
 
-    <p>
-        Capturing moments through creativity and simplicity.
-    </p>
+        <div class="footer-about">
 
-    <div class="footer-menu">
+            <h2>Newbie Photography</h2>
 
-        <a href="index.html">Home</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+            <p>
+
+                Mengabadikan cerita melalui setiap bidikan.
+                Landscape, Street, Night, dan Automotive Photography.
+
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h3>Navigasi</h3>
+
+            <a href="index.html">Beranda</a>
+
+            <a href="gallery.html">Galeri</a>
+
+            <a href="about.html">Tentang</a>
+
+            <a href="contact.html">Kontak</a>
+
+        </div>
+
+        <div class="footer-social">
+
+            <h3>Media Sosial</h3>
+
+            <a href="#">Instagram</a>
+
+            <a href="#">Facebook</a>
+
+            <a href="#">TikTok</a>
+
+            <a href="#">YouTube</a>
+
+        </div>
 
     </div>
 
-    <p class="copyright">
-        © 2026 Newbie Photography
-    </p>
+    <div class="footer-bottom">
+
+        © <span id="year"></span> Newbie Photography. All Rights Reserved.
+
+    </div>
 
 </footer>
 
-<button id="topBtn">↑</button>
+<!-- ==========================
+BACK TO TOP
+========================== -->
+
+<button id="topBtn">
+
+↑
+
+</button>
+
+<!-- ==========================
+GLIGHTBOX
+========================== -->
+
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+
+<!-- ==========================
+MAIN SCRIPT
+========================== -->
+
+<script src="js/script.js"></script>
 
 </body>
 
